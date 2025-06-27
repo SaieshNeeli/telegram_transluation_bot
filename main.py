@@ -219,8 +219,7 @@ async def main():
     await app.run_polling()
 
 
-# Entry
-try:
-    asyncio.get_running_loop().run_until_complete(main())
-except RuntimeError:
-    asyncio.create_task(main())
+# ✅ Use this for production-safe entry
+if __name__ == "__main__":
+    asyncio.run(main())
+
