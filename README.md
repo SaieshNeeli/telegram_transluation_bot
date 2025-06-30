@@ -2,6 +2,10 @@
 
 This Telegram bot allows users to **automatically translate messages** from **group chats** and **private messages** into their preferred language.  
 It is built using **[python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)** and **[deep-translator](https://github.com/nidhaloff/deep-translator)**.
+The bot is created with the username @last_message_reply_bot. By seraching the bot with this username we can start the bot either in the bot chat or in the groups . it is very useful in community chatting groups . 
+
+I have deployed this bot for 20 days from now . So it will be active for 20 days . The bot was deployed in railway.com . 
+If you want to run this code on your system you can follow the below instruction and can run of your system or can directly deply the code in any deployment platforms.
 
 ---
 
